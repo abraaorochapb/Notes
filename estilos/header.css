@@ -40,3 +40,14 @@ header{
   background-color: #fff;
   color: #333;
 }
+
+@media (max-width: 600px) {
+  header{
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+  #search-container{
+    width: 100%;
+  }
+}
